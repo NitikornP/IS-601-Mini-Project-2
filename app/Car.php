@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Car extends Model
 {
-    protected $cars = [
-        'make', 'model','year',
+    protected $table = 'cars';
+    protected $fillable = [
+        'make', 'model', 'year',
     ];
 }
