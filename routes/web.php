@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/contact', 'ContactController@get')->name('contact');
 Route::post('/contact', 'ContactController@store')->name('contact.store');
+Route::get('/about', 'AboutController@about')->name('about');
